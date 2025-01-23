@@ -1,3 +1,4 @@
+/* RHAI inspiration
 
 -- Monopolies++ Basic Support
 -- I had to make this entire file twice after renaming the folder deleted it :(
