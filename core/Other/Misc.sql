@@ -1,3 +1,4 @@
+/* RHAI inspiration
 
 -- RH Misc
 -- AUTHOR: ROMANHOLIDAY		
