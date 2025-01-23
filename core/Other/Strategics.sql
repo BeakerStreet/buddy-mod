@@ -1,3 +1,4 @@
+/* RHAI inspiration
 
 -- RH Strategics Changes
 -- AUTHOR: ROMANHOLIDAY		
