@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Context Name="RhCtx">
+	<!--Container ID="RhContentContainer" Size="96,27" Anchor="R,T" Offset="0,0"--> <!-- Container Currently Doesn't work -->
+	
+	<Instance Name="RHVersionInst">
+    	<GridButton ID="RHVersionBtn" Style="RoundedButton" String="LOC_RH_AI_VERSION" Size="70,27"/>
+	</Instance>
+	
+	<!--/Container-->
+	
+	
+
+</Context>
+
