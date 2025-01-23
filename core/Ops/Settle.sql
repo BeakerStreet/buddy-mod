@@ -1,4 +1,4 @@
-
+/* RHAI inspiration
 
 -- Settlement Adjustments
 -- AUTHOR: ROMANHOLIDAY	
