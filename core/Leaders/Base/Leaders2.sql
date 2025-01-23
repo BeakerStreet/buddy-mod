@@ -1,4 +1,5 @@
 
+/*
 -- Leaders 2 -- Special Thanks Infixo
 
 --  AMERICA / Rough Rider Teddy ROOSEVELT 
@@ -468,3 +469,4 @@ REPLACE INTO AiFavoredItems (ListType, Item, Favored, Value) VALUES
 ('QinPseudoYields', 'PSEUDOYIELD_TOURISM', 1, 10);
 
 -- Unlocks Canals Early -- todo Canals preference
+*/

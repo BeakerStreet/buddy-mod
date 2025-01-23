@@ -1,3 +1,5 @@
+/* RH AI (for inspiration)
+
 -- Leaders 7 
 
 -- TRAJAN / ROME
@@ -117,3 +119,4 @@ REPLACE INTO AiFavoredItems (ListType, Item, Favored, Value) VALUES
 
 -- think is fixed by firaxis but leaving just in case -- credit infixo
 UPDATE Units SET PseudoYieldType = 'PSEUDOYIELD_UNIT_NAVAL_COMBAT' WHERE UnitType = 'UNIT_NORWEGIAN_LONGSHIP'; 
+*/

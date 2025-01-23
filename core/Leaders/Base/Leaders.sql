@@ -1,4 +1,5 @@
 
+/*
 --------------------------------------------------------------------------------------------------------------------------
 -- Base Game Specific Leader Strategy / Personality Improvements File 1 - Big Credit for some of the adjustment ideas and for the best way of improving the AI's personality using sqlite AIlists methods - Infixo
 --------------------------------------------------------------------------------------------------------------------------
@@ -306,3 +307,4 @@ INSERT OR REPLACE INTO AiFavoredItems (ListType, Item, Favored, Value) VALUES
 -- Testing, Possibly won't work as Agenda Darwinist Exclusive with Peacekeeper?
 
 DELETE FROM AiFavoredItems WHERE Item='DIPLOACTION_DECLARE_FRIENDSHIP' AND Favored=1 AND ListType='PeacekeeperWarLimits'; -- Don't think it is here but just in case
+*/

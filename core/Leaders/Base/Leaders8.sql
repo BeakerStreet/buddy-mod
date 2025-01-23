@@ -1,3 +1,5 @@
+/* RH AI (for inspiration)
+
 -- noinspection SqlNoDataSourceInspectionForFile
 
 -- Leaders 8
@@ -142,10 +144,4 @@ INSERT OR IGNORE INTO AiFavoredItems (ListType, Item, Favored, Value) VALUES
 
 -- Redcoat Leader Trait Bug 
 UPDATE Traits SET Name = 'LOC_TRAIT_LEADER_UNIT_ENGLISH_REDCOAT_NAME'      WHERE Name = 'LOC_TRAIT_LEADER_TRAIT_LEADER_UNIT_ENGLISH_REDCOAT_NAME';
-
-
-
-
-
-
-
+*/

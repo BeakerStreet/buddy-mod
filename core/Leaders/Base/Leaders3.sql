@@ -1,4 +1,5 @@
 
+/*
 -- Leaders 3
 
 -- MVEMBA / KONGO
@@ -284,3 +285,4 @@ REPLACE INTO AiFavoredItems (ListType, Item, Favored, Value) VALUES
 ('SaladinPseudoYields', 'PSEUDOYIELD_GPP_SCIENTIST', 1, 15);
 
 
+*/
