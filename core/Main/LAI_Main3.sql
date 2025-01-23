@@ -1,3 +1,5 @@
+/* RHAI inspiration
+
 -- AUTHOR: ROMANHOLIDAY	
 --------------------------------------------------------------------------------------------------------------------------
 -- AI Various Tweaks, Disabled Units / Small niche boosts to improve strategy where it cannot be changed

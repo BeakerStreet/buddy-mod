@@ -1,3 +1,5 @@
+/* RHAI inspiration
+
 -- noinspection SqlNoDataSourceInspectionForFile
 -- AUTHOR: ROMANHOLIDAY	
 
