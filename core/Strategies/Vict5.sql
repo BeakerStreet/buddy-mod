@@ -1,4 +1,4 @@
-
+/* RHAI inspiration
 
 --------------------------------------------------------------------------------------------------------------------------
 -- Diplomatic Victory
@@ -31,7 +31,7 @@ REPLACE INTO AiLists (ListType, System) VALUES
 
 REPLACE INTO Strategy_Priorities (StrategyType, ListType) VALUES
 ('VICTORY_STRATEGY_DIPLOMATIC_VICTORY', 'DiplomaticVictoryAgendas'),
-('VICTORY_STRATEGY_DIPLOMATIC_VICTORY', 'DiplomaticVictoryAlliances'),
+('VICTORY_STRATEGY_DIPLOMATIC_VICTORY', 'Diplomat   icVictoryAlliances'),
 ('VICTORY_STRATEGY_DIPLOMATIC_VICTORY', 'DiplomaticVictoryCivics'),
 ('VICTORY_STRATEGY_DIPLOMATIC_VICTORY', 'DiplomaticVictoryDiplomacy'),
 ('VICTORY_STRATEGY_DIPLOMATIC_VICTORY', 'DiplomaticVictoryDistricts'),
