@@ -1,4 +1,4 @@
-
+/*
 
 -- CATHERINE_DE_MEDICI_ALT / FRANCE -- MAGNIFICENCE -- TRAIT_LEADER_MAGNIFICENCES
 
@@ -1069,3 +1069,4 @@ INSERT OR REPLACE INTO AiFavoredItems (ListType, Item, Favored, Value) VALUES
 INSERT OR REPLACE INTO AiFavoredItems(ListType, Item, Value) VALUES
 ('UnitPriorityBoosts', -16, 'UNIT_SOOTHSAYER'),
 ('UnitPriorityBoosts', -10, 'UNIT_CULTIST');
+*/

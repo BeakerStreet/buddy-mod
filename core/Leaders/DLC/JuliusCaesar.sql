@@ -1,4 +1,4 @@
-
+/*
 
 UPDATE AiFavoredItems SET Value = 500 WHERE ListType = 'GallicWarsClearingBarbCampPreference' AND Item = 'PSEUDOYIELD_CLEAR_BANDIT_CAMPS'; -- base 0.85 -- pvs 110, now 500 after barbarian bonus
 
@@ -45,4 +45,5 @@ INSERT OR IGNORE INTO LeaderTraits(LeaderType, TraitType) VALUES ('LEADER_JULIUS
 		<Row ListType="CaesarTechs" Item="TECH_COMBUSTION" Favored="true"/>
 		<Row ListType="CaesarTechs" Item="TECH_STEEL" Favored="true"/>
 		<Row ListType="GallicWarsClearingBarbCampPreference" Item="PSEUDOYIELD_CLEAR_BANDIT_CAMPS" Value="5"/>
+*/
 */

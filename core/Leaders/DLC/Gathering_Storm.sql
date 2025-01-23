@@ -1,3 +1,4 @@
+/*
 
 -- Gathering Storm Leader Improvements and Adjustments
 
@@ -699,3 +700,5 @@ DELETE FROM AiFavoredItems WHERE ListType = 'KristinaCivics' AND Item IN ('CIVIC
 INSERT OR REPLACE INTO UnitAiInfos (UnitType, AiType) VALUES
 ('UNIT_CANADA_MOUNTIE', 'UNITAI_BUILD'), -- national parks
 ('UNIT_MAORI_TOA', 'UNITAI_BUILD');
+*/
+

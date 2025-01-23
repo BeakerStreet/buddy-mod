@@ -1,5 +1,4 @@
-
-
+/*
 -- Robert the Bruce / Scotland
 
 INSERT OR REPLACE INTO AiListTypes (ListType) VALUES
@@ -633,3 +632,5 @@ INSERT OR REPLACE INTO RequirementArguments
 		('RH_REQUIRES_HAS_TECH_ADVANCED_BALLISTICS',						'TechnologyType',			'TECH_LASERS'),
 		('RH_REQUIRES_HAS_TECH_GUIDANCE_SYSTEMS',							'TechnologyType',			'TECH_GUIDANCE_SYSTEMS');
 	*/
+
+*/

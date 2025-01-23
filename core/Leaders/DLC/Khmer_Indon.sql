@@ -1,4 +1,4 @@
-
+/*
 -- JAYAVARMAN / KHMER
 
 INSERT INTO LeaderTraits(LeaderType, TraitType) VALUES ('LEADER_JAYAVARMAN', 'TRAIT_LEADER_DEFENSIVE');
@@ -91,3 +91,4 @@ INSERT OR IGNORE INTO AiFavoredItems (ListType, Item, Favored, Value) VALUES
 
 INSERT OR IGNORE INTO AiFavoredItems (ListType, Item, Favored, Value) VALUES
 ('PreferPopulationBuildings', 'BUILDING_ANGKOR_WAT', 1, 80);
+*/

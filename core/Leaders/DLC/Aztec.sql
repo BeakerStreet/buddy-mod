@@ -1,4 +1,4 @@
-
+/*
 
 -- AZTEC
 
@@ -76,3 +76,4 @@ REPLACE INTO AiFavoredItems (ListType, Item, Favored, Value, StringVal) VALUES
 ('MontezumaSettlement', 'New Resources',         0, 10,                   NULL), -- base 4
 ('MontezumaSettlement', 'Resource Class',        0, 15, 'RESOURCECLASS_LUXURY'); -- base 2
 
+*/

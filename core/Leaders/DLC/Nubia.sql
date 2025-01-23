@@ -1,4 +1,4 @@
-
+/*
 -- AMANITORE / NUBIA
 
 INSERT INTO LeaderTraits(LeaderType, TraitType) VALUES ('LEADER_AMANITORE', 'TRAIT_LEADER_DEFENSIVE');
@@ -81,4 +81,5 @@ Ranged units gain +50% combat experience.
 
 INSERT OR IGNORE INTO AiFavoredItems (ListType, Item, Favored, Value) VALUES
 ('STRATEGY_CANNOT_USE_RELIGION_WONDERS', 'BUILDING_JEBEL_BARKAL', 0, -50);
+*/
 

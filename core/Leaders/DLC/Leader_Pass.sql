@@ -1,4 +1,4 @@
-
+/*
 -- INDUSTRIAL VICTORIA
 
 INSERT OR REPLACE INTO LeaderTraits(LeaderType, TraitType) VALUES ('LEADER_VICTORIA_ALT', 'TRAIT_LEADER_EXPANSIONIST');
@@ -919,3 +919,4 @@ INSERT OR REPLACE INTO AiFavoredItems (ListType, Item, Favored, Value, StringVal
 
 INSERT OR REPLACE INTO AiFavoredItems (ListType, Item, Favored, Value) VALUES
 ('VictoriaAltWonders', 'BUILDING_TOWER_BRIDGE', 1, 0); -- Modded
+*/

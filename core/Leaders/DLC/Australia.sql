@@ -1,4 +1,4 @@
-
+/*
 -- JOHN CURTIN / AUSTRALIA
 
 
@@ -86,3 +86,4 @@ INSERT OR IGNORE INTO AiFavoredItems (ListType, Favored, Value, Item, StringVal,
 SELECT 'CurtinSettlement', 0, 2, 'Specific Feature',  FeatureType, 'LOC_SETTLEMENT_RECOMMENDATION_FEATURES' -- 5, 4 too high
 FROM Features
 WHERE NaturalWonder = 1; -- NaturalWonder="true"
+*/

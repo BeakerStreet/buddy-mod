@@ -1,4 +1,4 @@
-
+/*
 -- CYRUS / PERSIA
 
 INSERT OR REPLACE INTO LeaderTraits(LeaderType, TraitType) VALUES ('LEADER_CYRUS', 'TRAIT_LEADER_AGGRESSIVE_MILITARY');
@@ -158,3 +158,4 @@ WHERE BuildingType IN ('BUILDING_HALICARNASSUS_MAUSOLEUM');
 INSERT OR IGNORE INTO AiFavoredItems (ListType, Item, Favored, Value)
 SELECT 'AlexanderWonders', 'BUILDING_STATUE_OF_ZEUS', 1, 500 -- Burst of Science
 FROM Types WHERE Type = 'BUILDING_STATUE_OF_ZEUS';
+*/

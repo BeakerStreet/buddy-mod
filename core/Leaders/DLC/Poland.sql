@@ -1,5 +1,4 @@
-
-
+/*
 -- JADWIGA / POLAND
 
 INSERT OR IGNORE INTO AiListTypes (ListType) VALUES
@@ -63,4 +62,6 @@ INSERT OR IGNORE INTO AiFavoredItems (ListType, Item, Favored, Value) VALUES
 		<Row LeaderType="LEADER_JADWIGA" TraitType="TRAIT_LEADER_RELIGIOUS_MAJOR_CIV"/>
 		<Row LeaderType="LEADER_JADWIGA" TraitType="TRAIT_LEADER_LITHUANIAN_UNION"/>
 		<Row LeaderType="LEADER_JADWIGA" TraitType="TRAIT_LEADER_LOW_CITY_STATE_PREFERENCE_WAR"/>
+*/
+
 */
