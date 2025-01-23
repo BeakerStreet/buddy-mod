@@ -1,3 +1,4 @@
+/* RHAI inspiration
 
 -- Naval Strategy Improvements
 
