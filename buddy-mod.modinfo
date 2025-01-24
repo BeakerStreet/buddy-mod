@@ -1,18 +1,20 @@
-﻿// TODO: Modify this modinfo to reflect buddy-mod instead of RHAI
+﻿
+/*
 
-<!--
-<?xml version="1.0" encoding="utf-8"?>
-<Mod id="2501be3e-9780-4e9f-9506-4ff71cf076cb" version="12">
+<?xml version="1.0" encoding="utf-8"?> <!-- accurate? -->
+<Mod id="" version=""> 
   <Properties>
-    <Name>RomanHoliday's [COLOR:ResScienceLabelCS]AI Behaviour Rework v3.283[ENDCOLOR]</Name>
-    <Description>There's an AI system in the game, says Shirk. it...it's called a 'Mayhem Level'</Description>
-    <Teaser>We're all going on a RomanHoliday...</Teaser>
-    <SupportsMultiplayer>1</SupportsMultiplayer>
-    <Authors>RomanHoliday</Authors>
-    <SpecialThanks>Infixo, Denlar, Mysterymilosh, Smally, OmarBaba and TheCivShow!</SpecialThanks>
-    <CompatibleVersions>2.0</CompatibleVersions>
+    <Name></Name>
+    <Description></Description>
+    <Teaser></Teaser>
+    <SupportsMultiplayer></SupportsMultiplayer>
+    <Authors></Authors>
+    <SpecialThanks></SpecialThanks>
+    <CompatibleVersions></CompatibleVersions>
   </Properties>
-  
+
+
+<!-- everything below is for the RHAI mod -->
   <ActionCriteria>
 		<Criteria id="Expansion1">
 			<GameCoreInUse>Expansion1</GameCoreInUse> 
