@@ -6,6 +6,16 @@ INSERT OR REPLACE INTO AiFavoredItems(ListType, Item, Value, TurnCondition) VALU
 ('UnitPriorityBoosts_Prince', 'BUILDING_MONUMENT', CASE WHEN CurrentTurn < 10 THEN 15 ELSE 5 END, 'CurrentTurn < 10'),
 ('UnitPriorityBoosts_Prince', 'WONDER_GREAT_BATH', CASE WHEN CurrentTurn < 10 THEN 18 ELSE 8 END, 'CurrentTurn < 10');
 
+-- Priorities for Prince AI to research Civics and Technologies
+INSERT OR REPLACE INTO AiFavoredItems(ListType, Item, Value) VALUES
+('CivicPriorityBoosts_Prince', 'CIVIC_CODE_OF_LAWS', 50),
+('CivicPriorityBoosts_Prince', 'CIVIC_CRAFTSMANSHIP', 40),
+('CivicPriorityBoosts_Prince', 'CIVIC_FOREIGN_TRADE', 30),
+('TechPriorityBoosts_Prince', 'TECH_ANIMAL_HUSBANDRY', 50),
+('TechPriorityBoosts_Prince', 'TECH_POTTERY', 45),
+('TechPriorityBoosts_Prince', 'TECH_MINING', 40),
+('TechPriorityBoosts_Prince', 'TECH_WRITING', 35),
+('TechPriorityBoosts_Prince', 'TECH_ARCHERY', 30),
 
 /* RHAI inspiration
 
