@@ -9,6 +9,7 @@
 
 ### In Progress
 - [ ] draft mod submission guidelines (in-p)
+- [ ] some mod code
 - [ ] ship bm-v1 to API (in-p)
 - [ ] ship bm-v1-web (in-p)
 
