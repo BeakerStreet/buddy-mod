@@ -1,3 +1,12 @@
+-- UnitPriority boosts for Prince AI difficulty only, prioritizing Settlers, Scouts, Monuments, and the Great Bath Wonder
+-- Contextual to the current turn
+INSERT OR REPLACE INTO AiFavoredItems(ListType, Item, Value, TurnCondition) VALUES
+('UnitPriorityBoosts_Prince', 'UNIT_SETTLER', CASE WHEN CurrentTurn < 10 THEN 30 ELSE 10 END, 'CurrentTurn < 10'), 
+('UnitPriorityBoosts_Prince', 'UNIT_SCOUT', CASE WHEN CurrentTurn < 10 THEN 30 ELSE 5 END, 'CurrentTurn < 10'),
+('UnitPriorityBoosts_Prince', 'BUILDING_MONUMENT', CASE WHEN CurrentTurn < 10 THEN 15 ELSE 5 END, 'CurrentTurn < 10'),
+('UnitPriorityBoosts_Prince', 'WONDER_GREAT_BATH', CASE WHEN CurrentTurn < 10 THEN 18 ELSE 8 END, 'CurrentTurn < 10');
+
+
 /* RHAI inspiration
 
 --------------------------------------------------------------------------------------------------------------------------
