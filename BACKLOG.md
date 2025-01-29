@@ -9,11 +9,11 @@
 
 ### In Progress
 - [ ] draft mod submission guidelines (in-p)
-- [ ] some mod code
 - [ ] ship bm-v1 to API (in-p)
 - [ ] ship bm-v1-web (in-p)
 
 ### Done
+- [x] some mod code
 - [x] create buddy-mod gpt
 - [x] ship repo
 - [x] ship bm-v1-web repo
