@@ -1,0 +1,207 @@
+# Civilization VI Additional Tables Schema
+
+This document provides an overview of the additional tables used in Civilization VI's configuration schema. These tables are primarily used to store configuration data that influences gameplay mechanics, such as difficulty levels, game modes, and map settings. The tables are not directly used by the core configuration logic but are referenced in queries to provide additional values or restrict domains.
+
+## Gameplay-Related Tables
+
+### Difficulties
+- **Purpose**: Defines different difficulty levels in the game.
+- **Columns**:
+  - `Domain`: The domain of the difficulty.
+  - `DifficultyType`: The type of difficulty (e.g., "Prince").
+  - `Name`: The display name of the difficulty.
+  - `SortIndex`: The order in which difficulties are sorted.
+
+### Eras
+- **Purpose**: Defines different eras that players progress through in the game.
+- **Columns**:
+  - `Domain`: The domain of the era.
+  - `EraType`: The type of era.
+  - `Name`: The name of the era.
+  - `Description`: A description of the era.
+  - `SortIndex`: The order in which eras are sorted.
+
+### GameModeItems
+- **Purpose**: Stores information about different game mode items that can affect gameplay.
+- **Columns**:
+  - `GameModeType`: The type of game mode.
+  - `Name`: The name of the game mode item.
+  - `Description`: A description of the game mode item.
+  - `Icon`: The icon for the game mode item.
+  - `SortIndex`: The order in which game mode items are sorted.
+
+### GameModePlayerInfoOverrides
+- **Purpose**: Provides overrides for player information when certain game modes are active.
+- **Columns**:
+  - `GameModeType`: The type of game mode.
+  - `Domain`: The domain of the player.
+  - `CivilizationType`: The type of civilization.
+  - `LeaderType`: The type of leader.
+  - `Priority`: The priority of the override.
+
+### GameModePlayerItemOverrides
+- **Purpose**: Provides overrides for player items when certain game modes are active.
+- **Columns**:
+  - `GameModeType`: The type of game mode.
+  - `Domain`: The domain of the player.
+  - `CivilizationType`: The type of civilization.
+  - `LeaderType`: The type of leader.
+  - `Type`: The type of item.
+  - `ShouldRemove`: Whether the item should be removed.
+
+### GameSpeeds
+- **Purpose**: Defines different game speeds that affect the pace of the game.
+- **Columns**:
+  - `Domain`: The domain of the game speed.
+  - `GameSpeedType`: The type of game speed.
+  - `Name`: The name of the game speed.
+  - `SortIndex`: The order in which game speeds are sorted.
+
+### Maps
+- **Purpose**: Stores information about different maps available in the game.
+- **Columns**:
+  - `Domain`: The domain of the map.
+  - `File`: The file name of the map.
+  - `Name`: The name of the map.
+  - `StaticMap`: Whether the map is static.
+
+### MapLeaders
+- **Purpose**: Associates leaders with specific maps.
+- **Columns**:
+  - `Map`: The map file.
+  - `LeaderType`: The type of leader.
+
+### MapStartPositions
+- **Purpose**: Defines start positions on maps for players.
+- **Columns**:
+  - `Map`: The map file.
+  - `Plot`: The plot number.
+  - `Type`: The type of start position.
+
+### MapSizes
+- **Purpose**: Defines different map sizes that affect gameplay.
+- **Columns**:
+  - `Domain`: The domain of the map size.
+  - `MapSizeType`: The type of map size.
+  - `Name`: The name of the map size.
+  - `MinPlayers`: The minimum number of players.
+
+### NaturalWonders
+- **Purpose**: Defines natural wonders that can appear on maps.
+- **Columns**:
+  - `Domain`: The domain of the natural wonder.
+  - `FeatureType`: The type of feature.
+  - `Name`: The name of the natural wonder.
+
+### CityStates
+- **Purpose**: Defines city-states that players can interact with.
+- **Columns**:
+  - `Domain`: The domain of the city-state.
+  - `CivilizationType`: The type of civilization.
+  - `Name`: The name of the city-state.
+
+### Rulesets
+- **Purpose**: Defines different rulesets that can alter game mechanics.
+- **Columns**:
+  - `RulesetType`: The type of ruleset.
+  - `Name`: The name of the ruleset.
+  - `DefeatDomain`: The domain for defeat conditions.
+
+### RulesetTypes
+- **Purpose**: Lists types for a given ruleset, affecting gameplay.
+- **Columns**:
+  - `Ruleset`: The ruleset type.
+  - `Type`: The type of ruleset.
+  - `Kind`: The kind of ruleset.
+
+### Players
+- **Purpose**: Defines player configurations and attributes.
+- **Columns**:
+  - `Domain`: The domain of the player.
+  - `CivilizationType`: The type of civilization.
+  - `LeaderType`: The type of leader.
+
+### PlayerItems
+- **Purpose**: Defines items that players can use or interact with.
+- **Columns**:
+  - `Domain`: The domain of the player.
+  - `CivilizationType`: The type of civilization.
+  - `LeaderType`: The type of leader.
+
+### DuplicateLeaders
+- **Purpose**: Defines duplicate leaders that can appear in the game.
+- **Columns**:
+  - `Domain`: The domain of the leader.
+  - `LeaderType`: The type of leader.
+
+### DuplicateCivilizations
+- **Purpose**: Defines duplicate civilizations that can appear in the game.
+- **Columns**:
+  - `Domain`: The domain of the civilization.
+  - `CivilizationType`: The type of civilization.
+
+### TurnTimers
+- **Purpose**: Defines turn timers that affect the duration of turns.
+- **Columns**:
+  - `Domain`: The domain of the turn timer.
+  - `TurnTimerType`: The type of turn timer.
+
+### TurnPhases
+- **Purpose**: Defines turn phases that structure the flow of a turn.
+- **Columns**:
+  - `Domain`: The domain of the turn phase.
+  - `TurnPhaseType`: The type of turn phase.
+
+### Victories
+- **Purpose**: Defines victory conditions that players can achieve.
+- **Columns**:
+  - `Domain`: The domain of the victory.
+  - `VictoryType`: The type of victory.
+
+### MapDomainOverrides
+- **Purpose**: Overrides map domains to customize gameplay.
+- **Columns**:
+  - `Map`: The map file.
+  - `ParameterId`: The parameter ID to replace the domain.
+
+### RulesetDomainOverrides
+- **Purpose**: Overrides ruleset domains to customize gameplay.
+- **Columns**:
+  - `Ruleset`: The ruleset type.
+  - `ParameterId`: The parameter ID to replace the domain.
+
+### MapSupportedValues
+- **Purpose**: Restricts map domains to specific values.
+- **Columns**:
+  - `Map`: The map file.
+  - `Domain`: The domain of the value.
+
+### MapUnSupportedValues
+- **Purpose**: Restricts unsupported map domains to specific values.
+- **Columns**:
+  - `Map`: The map file.
+  - `Domain`: The domain of the value.
+
+### RulesetSupportedValues
+- **Purpose**: Restricts ruleset domains to specific values.
+- **Columns**:
+  - `Ruleset`: The ruleset type.
+  - `Domain`: The domain of the value.
+
+### RulesetUnSupportedValues
+- **Purpose**: Restricts unsupported ruleset domains to specific values.
+- **Columns**:
+  - `Ruleset`: The ruleset type.
+  - `Domain`: The domain of the value.
+
+## Modifying Gameplay: Example with "Prince" Difficulty
+
+To modify the "Prince" difficulty AI, focus on the `Difficulties` table. You can change the `DifficultyType` and `Name` fields to adjust the settings for the "Prince" difficulty. For example, you might want to change the `SortIndex` to alter its position in the difficulty list or adjust other game parameters associated with this difficulty level.
+
+### Steps to Modify:
+1. Locate the entry in the `Difficulties` table where `DifficultyType` is set to "Prince".
+2. Update the `Name` field if you want to change how it appears in the game.
+3. Adjust the `SortIndex` to change its order relative to other difficulties.
+4. Consider adding or modifying related entries in other tables that might affect AI behavior or game settings specific to the "Prince" difficulty.
+
+By understanding and utilizing the tables in `AdditionalTables.sql`, you can customize various aspects of Civilization VI to enhance your gaming experience. 
