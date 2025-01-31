@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ResearchOrder -->
+<!-- Author: kenneth -->
+<!-- DateCreated: 1/29/2025 5:27:16 PM -->
+<GameData>
+	<AiFavouredItems>
+		<Update>
+			<Where ListType="StandardSettlePlot" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_LUXURY_RESOURCES" Item="Resource Class" StringVal="RESOURCECLASS_LUXURY"/>
+			<Set Value="4"/>
+		</Update>
+	</AiFavouredItems>
+</GameData>

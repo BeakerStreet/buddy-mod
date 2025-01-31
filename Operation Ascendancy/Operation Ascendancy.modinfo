@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="629e5362-e909-4316-b605-6191d054c799" version="1">
+  <Properties>
+    <Name>Operation Ascendancy</Name>
+    <Description>Mod designed to improve prince AIs behaviour and make it more humanlike in its decision making.</Description>
+    <Created>1738341932</Created>
+    <Teaser>Mod designed to improve prince AIs behaviour and make it more humanlike in its decision making.</Teaser>
+    <Authors>DizzyKnight, beakerstreet, Robaota</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="SettleMod_UpdateDatabase">
+      <File>SettleModifications.xml</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>SettleModifications.xml</File>
+  </Files>
+</Mod>
